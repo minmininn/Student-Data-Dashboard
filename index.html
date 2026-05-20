@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1.0">
+
+  <title>Student Data Analytics Platform</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<div class="layout">
+
+  <!-- Sidebar -->
+
+  <aside class="sidebar">
+
+    <h2>DataAnalytics</h2>
+
+    <nav>
+
+      <a href=" ">Dashboard</a >
+
+      <a href="#">Students</a >
+
+      <a href="#">Performance</a >
+
+      <a href="#">Attendance</a >
+
+      <a href="#">Analytics</a >
+
+    </nav>
+
+  </aside>
+
+  <!-- Main -->
+
+  <main class="main-content">
+
+    <!-- Header -->
+
+    <header>
+
+      <div>
+
+        <h1>Student Data Dashboard</h1>
+
+        <p>Educational Analytics Platform</p >
+
+      </div>
+
+      <div class="time-box">
+
+        <span id="currentTime"></span>
+
+      </div>
+
+    </header>
+
+    <!-- KPI -->
+
+    <section class="dashboard">
+
+      <div class="card">
+
+        <h2>1,248</h2>
+
+        <p>Total Students</p >
+
+      </div>
+
+      <div class="card">
+
+        <h2>89%</h2>
+
+        <p>Attendance Rate</p >
+
+      </div>
+
+      <div class="card">
+
+        <h2>91%</h2>
+
+        <p>Average Score</p >
+
+      </div>
+
+      <div class="card">
+
+        <h2>95%</h2>
+
+        <p>Graduation Rate</p >
+
+      </div>
+
+    </section>
+
+    <!-- AI Panel -->
+
+    <section class="ai-panel">
+
+      <h3>AI Analytics Insights</h3>
+
+      <div class="ai-grid">
+
+        <div class="ai-card">
+
+          <h4>Performance Trend</h4>
+
+          <p>
+            Student performance increased this semester.
+          </p >
+
+        </div>
+
+        <div class="ai-card">
+
+          <h4>Attendance Analysis</h4>
+
+          <p>
+            Attendance rates improved by 12%.
+          </p >
+
+        </div>
+
+        <div class="ai-card">
+
+          <h4>AI Recommendation</h4>
+
+          <p>
+            Focus on mathematics support programs.
+          </p >
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Charts -->
+
+    <section class="charts-grid">
+
+      <!-- Bar -->
+
+      <div class="chart-card">
+
+        <h3>Subject Performance</h3>
+
+        <canvas id="barChart"></canvas>
+
+      </div>
+
+      <!-- Line -->
+
+      <div class="chart-card">
+
+        <h3>Attendance Analytics</h3>
+
+        <canvas id="lineChart"></canvas>
+
+      </div>
+
+    </section>
+
+    <!-- Bottom -->
+
+    <section class="bottom-grid">
+
+      <!-- Table -->
+
+      <div class="table-card">
+
+        <h3>Top Students</h3>
+
+        <table>
+
+          <tr>
+
+            <th>Name</th>
+
+            <th>Score</th>
+
+            <th>Attendance</th>
+
+          </tr>
+
+          <tr>
+
+            <td>Minji</td>
+
+            <td>98</td>
+
+            <td>97%</td>
+
+          </tr>
+
+          <tr>
+
+            <td>Hyunwoo</td>
+
+            <td>96</td>
+
+            <td>95%</td>
+
+          </tr>
+
+          <tr>
+
+            <td>Jisoo</td>
+
+            <td>95</td>
+
+            <td>96%</td>
+
+          </tr>
+
+        </table>
+
+      </div>
+
+      <!-- Pie -->
+
+      <div class="chart-card">
+
+        <h3>Student Distribution</h3>
+
+        <canvas id="pieChart"></canvas>
+
+      </div>
+
+    </section>
+
+  </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
